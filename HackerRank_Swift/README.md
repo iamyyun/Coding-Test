@@ -29,8 +29,8 @@
 ## Algorithms MEDIUM
 | 번호 | 문제 | 코드 |
 | --- | --- | --- |
-| 1 | [The Time in Words](https://www.hackerrank.com/challenges/the-time-in-words) | [The_Time_in_Words.swift](HackerRank_Swift/HackerRank_Swift/Algorithms/Easy/The_Time_in_Words.swift) |
-| 2 | [Sherlock and the Valid String](https://www.hackerrank.com/challenges/sherlock-and-valid-string) | [Sherlock_and_Valid_String.swift](HackerRank_Swift/HackerRank_Swift/Algorithms/Easy/Sherlock_and_Valid_String.swift) |
-| 3 | [The Full Counting Sort](https://www.hackerrank.com/challenges/countingsort4) | [The_Full_Counting_Sort.swift](HackerRank_Swift/HackerRank_Swift/Algorithms/Easy/The_Full_Counting_Sort.swift) |
-| 4 | [Connected Cells in a Grid](https://www.hackerrank.com/challenges/connected-cell-in-a-grid) | [Connected_Cells_in_a_Grid.swift](HackerRank_Swift/HackerRank_Swift/Algorithms/Easy/Connected_Cells_in_a_Grid.swift) |
+| 1 | [The Time in Words](https://www.hackerrank.com/challenges/the-time-in-words) | [The_Time_in_Words.swift](HackerRank_Swift/HackerRank_Swift/Algorithms/Medium/The_Time_in_Words.swift) |
+| 2 | [Sherlock and the Valid String](https://www.hackerrank.com/challenges/sherlock-and-valid-string) | [Sherlock_and_Valid_String.swift](HackerRank_Swift/HackerRank_Swift/Algorithms/Medium/Sherlock_and_Valid_String.swift) |
+| 3 | [The Full Counting Sort](https://www.hackerrank.com/challenges/countingsort4) | [The_Full_Counting_Sort.swift](HackerRank_Swift/HackerRank_Swift/Algorithms/Medium/The_Full_Counting_Sort.swift) |
+| 4 | [Connected Cells in a Grid](https://www.hackerrank.com/challenges/connected-cell-in-a-grid) | [Connected_Cells_in_a_Grid.swift](HackerRank_Swift/HackerRank_Swift/Algorithms/Medium/Connected_Cells_in_a_Grid.swift) |
 
