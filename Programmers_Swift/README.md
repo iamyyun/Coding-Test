@@ -10,7 +10,7 @@
 ## Level 1
 | 번호 | 문제 | 코드 |
 | --- | --- | --- |
-| 1 | [2016년](https://programmers.co.kr/learn/courses/30/lessons/12901) | [2016년.swift](Level1/2016년.swift) |
+| 1 | [2016년](https://programmers.co.kr/learn/courses/30/lessons/12901) | [2016년.swift](Programmers_Swift/Programmers_Swift/Level1/2016년.swift) |
 | 2 | [K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748) | [K번째수.swift](Programmers_Swift/Level1/K번째수.swift) |
 | 3 | [가운데 글자 가져오기](https://programmers.co.kr/learn/courses/30/lessons/12903) | [가운데_글자_가져오기.swift](Programmers_Swift/Level1/가운데_글자_가져오기.swift) |
 | 4 | [나누어 떨어지는 숫자 배열](https://programmers.co.kr/learn/courses/30/lessons/12910) | [나누어_떨어지는_숫자_배열.swift](Programmers_Swift/Level1/나누어_떨어지는_숫자_배열.swift) |
