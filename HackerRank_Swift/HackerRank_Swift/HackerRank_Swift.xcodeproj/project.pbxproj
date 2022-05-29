@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B3E242D284118FA0036410B /* The_Full_Counting_Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3E242C284118FA0036410B /* The_Full_Counting_Sort.swift */; };
+		6B3E242F28411D780036410B /* The_Full_Counting_SortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3E242E28411D780036410B /* The_Full_Counting_SortTests.swift */; };
+		6B3E243128411F490036410B /* Connected_Cells_in_a_Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3E243028411F490036410B /* Connected_Cells_in_a_Grid.swift */; };
+		6B3E2433284129800036410B /* Connected_Cells_in_a_GridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3E2432284129800036410B /* Connected_Cells_in_a_GridTests.swift */; };
+		6B507F86283F141C006BD0E1 /* Ice_Cream_ParlorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B507F85283F141C006BD0E1 /* Ice_Cream_ParlorTests.swift */; };
+		6B507F8B283F1C9B006BD0E1 /* The_Time_in_Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B507F8A283F1C9B006BD0E1 /* The_Time_in_Words.swift */; };
+		6B507F8E283F2112006BD0E1 /* The_Time_in_WordsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B507F8D283F2112006BD0E1 /* The_Time_in_WordsTests.swift */; };
+		6B507F90283FC917006BD0E1 /* Sherlock_and_the_Valid_String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B507F8F283FC917006BD0E1 /* Sherlock_and_the_Valid_String.swift */; };
+		6B507F92283FD6F8006BD0E1 /* Sherlock_and_the_Valid_StringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B507F91283FD6F8006BD0E1 /* Sherlock_and_the_Valid_StringTests.swift */; };
+		6BE19C95283DD68E00736631 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE19C94283DD68E00736631 /* AppDelegate.swift */; };
+		6BE19C97283DD68E00736631 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE19C96283DD68E00736631 /* SceneDelegate.swift */; };
+		6BE19C99283DD68E00736631 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE19C98283DD68E00736631 /* ViewController.swift */; };
+		6BE19C9C283DD68E00736631 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BE19C9A283DD68E00736631 /* Main.storyboard */; };
+		6BE19C9E283DD68F00736631 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BE19C9D283DD68F00736631 /* Assets.xcassets */; };
+		6BE19CA1283DD68F00736631 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BE19C9F283DD68F00736631 /* LaunchScreen.storyboard */; };
+		6BE19CAC283DD68F00736631 /* HackerRank_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE19CAB283DD68F00736631 /* HackerRank_SwiftTests.swift */; };
+		6BE19CCD283DD94E00736631 /* Solve_Me_First.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE19CCC283DD94E00736631 /* Solve_Me_First.swift */; };
+		6BE19CCF283DD96300736631 /* Solve_Me_FirstTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE19CCE283DD96300736631 /* Solve_Me_FirstTests.swift */; };
+		6BE19CD1283DDD2000736631 /* Simple_Array_Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE19CD0283DDD2000736631 /* Simple_Array_Sum.swift */; };
+		6BE19CD3283DDDFC00736631 /* Simple_Array_SumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE19CD2283DDDFC00736631 /* Simple_Array_SumTests.swift */; };
+		6BE19CD5283DDEAF00736631 /* Compare_the_Triplets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE19CD4283DDEAF00736631 /* Compare_the_Triplets.swift */; };
+		6BE19CD7283DE35C00736631 /* Compare_the_TripletsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE19CD6283DE35C00736631 /* Compare_the_TripletsTests.swift */; };
+		6BE19CD9283DE46400736631 /* A_Very_Big_Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE19CD8283DE46400736631 /* A_Very_Big_Sum.swift */; };
+		6BE19CDB283DF16A00736631 /* A_Very_Big_SumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE19CDA283DF16A00736631 /* A_Very_Big_SumTests.swift */; };
+		6BE19CDD283DF20000736631 /* Diagonal_Difference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE19CDC283DF20000736631 /* Diagonal_Difference.swift */; };
+		6BE19CDF283DF47900736631 /* Diagonal_DifferencesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE19CDE283DF47900736631 /* Diagonal_DifferencesTests.swift */; };
+		6BE19CE1283DF52900736631 /* Plus_Minus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE19CE0283DF52900736631 /* Plus_Minus.swift */; };
+		6BE19CE3283DF75700736631 /* Plus_MinusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE19CE2283DF75700736631 /* Plus_MinusTests.swift */; };
+		6BE19CE5283DFF0900736631 /* Staircase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE19CE4283DFF0900736631 /* Staircase.swift */; };
+		6BE19CE7283E015000736631 /* StaircaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE19CE6283E015000736631 /* StaircaseTests.swift */; };
+		6BE19CE9283E04C500736631 /* Mini_Max_Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE19CE8283E04C500736631 /* Mini_Max_Sum.swift */; };
+		6BE19CEB283E088A00736631 /* Mini_Max_SumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE19CEA283E088A00736631 /* Mini_Max_SumTests.swift */; };
+		6BE19CED283E094900736631 /* Birthday_Cake_Candles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE19CEC283E094900736631 /* Birthday_Cake_Candles.swift */; };
+		6BE19CEF283E5F9B00736631 /* Birthday_Cake_CandlesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE19CEE283E5F9A00736631 /* Birthday_Cake_CandlesTests.swift */; };
+		6BE19CF1283E600400736631 /* Time_Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE19CF0283E600400736631 /* Time_Conversion.swift */; };
+		6BE19CF3283E655B00736631 /* Time_ConversionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE19CF2283E655B00736631 /* Time_ConversionTests.swift */; };
+		6BE19CF5283E6D1900736631 /* Grading_Students.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE19CF4283E6D1900736631 /* Grading_Students.swift */; };
+		6BE19CF7283E702700736631 /* Grading_StudentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE19CF6283E702700736631 /* Grading_StudentsTests.swift */; };
+		6BE19CF9283E711F00736631 /* Super_Reduced_String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE19CF8283E711F00736631 /* Super_Reduced_String.swift */; };
+		6BE19CFB283E7BAC00736631 /* Super_Reduced_StringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE19CFA283E7BAC00736631 /* Super_Reduced_StringTests.swift */; };
+		6BE19CFD283E7C6C00736631 /* Big_Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE19CFC283E7C6C00736631 /* Big_Sorting.swift */; };
+		6BE19CFF283E819900736631 /* Big_SortingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE19CFE283E819900736631 /* Big_SortingTests.swift */; };
+		6BE19D01283E84CD00736631 /* Ice_Cream_Parlor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE19D00283E84CD00736631 /* Ice_Cream_Parlor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BE19CA8283DD68F00736631 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BE19C89283DD68E00736631 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BE19C90283DD68E00736631;
+			remoteInfo = HackerRank_Swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B3E242C284118FA0036410B /* The_Full_Counting_Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Full_Counting_Sort.swift; sourceTree = "<group>"; };
+		6B3E242E28411D780036410B /* The_Full_Counting_SortTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Full_Counting_SortTests.swift; sourceTree = "<group>"; };
+		6B3E243028411F490036410B /* Connected_Cells_in_a_Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connected_Cells_in_a_Grid.swift; sourceTree = "<group>"; };
+		6B3E2432284129800036410B /* Connected_Cells_in_a_GridTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connected_Cells_in_a_GridTests.swift; sourceTree = "<group>"; };
+		6B507F85283F141C006BD0E1 /* Ice_Cream_ParlorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ice_Cream_ParlorTests.swift; sourceTree = "<group>"; };
+		6B507F8A283F1C9B006BD0E1 /* The_Time_in_Words.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Time_in_Words.swift; sourceTree = "<group>"; };
+		6B507F8D283F2112006BD0E1 /* The_Time_in_WordsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Time_in_WordsTests.swift; sourceTree = "<group>"; };
+		6B507F8F283FC917006BD0E1 /* Sherlock_and_the_Valid_String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sherlock_and_the_Valid_String.swift; sourceTree = "<group>"; };
+		6B507F91283FD6F8006BD0E1 /* Sherlock_and_the_Valid_StringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sherlock_and_the_Valid_StringTests.swift; sourceTree = "<group>"; };
+		6BE19C91283DD68E00736631 /* HackerRank_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackerRank_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BE19C94283DD68E00736631 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6BE19C96283DD68E00736631 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6BE19C98283DD68E00736631 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6BE19C9B283DD68E00736631 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BE19C9D283DD68F00736631 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BE19CA0283DD68F00736631 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BE19CA2283DD68F00736631 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BE19CA7283DD68F00736631 /* HackerRank_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackerRank_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BE19CAB283DD68F00736631 /* HackerRank_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerRank_SwiftTests.swift; sourceTree = "<group>"; };
+		6BE19CCC283DD94E00736631 /* Solve_Me_First.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solve_Me_First.swift; sourceTree = "<group>"; };
+		6BE19CCE283DD96300736631 /* Solve_Me_FirstTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solve_Me_FirstTests.swift; sourceTree = "<group>"; };
+		6BE19CD0283DDD2000736631 /* Simple_Array_Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_Array_Sum.swift; sourceTree = "<group>"; };
+		6BE19CD2283DDDFC00736631 /* Simple_Array_SumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_Array_SumTests.swift; sourceTree = "<group>"; };
+		6BE19CD4283DDEAF00736631 /* Compare_the_Triplets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compare_the_Triplets.swift; sourceTree = "<group>"; };
+		6BE19CD6283DE35C00736631 /* Compare_the_TripletsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compare_the_TripletsTests.swift; sourceTree = "<group>"; };
+		6BE19CD8283DE46400736631 /* A_Very_Big_Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A_Very_Big_Sum.swift; sourceTree = "<group>"; };
+		6BE19CDA283DF16A00736631 /* A_Very_Big_SumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A_Very_Big_SumTests.swift; sourceTree = "<group>"; };
+		6BE19CDC283DF20000736631 /* Diagonal_Difference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diagonal_Difference.swift; sourceTree = "<group>"; };
+		6BE19CDE283DF47900736631 /* Diagonal_DifferencesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diagonal_DifferencesTests.swift; sourceTree = "<group>"; };
+		6BE19CE0283DF52900736631 /* Plus_Minus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plus_Minus.swift; sourceTree = "<group>"; };
+		6BE19CE2283DF75700736631 /* Plus_MinusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plus_MinusTests.swift; sourceTree = "<group>"; };
+		6BE19CE4283DFF0900736631 /* Staircase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Staircase.swift; sourceTree = "<group>"; };
+		6BE19CE6283E015000736631 /* StaircaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaircaseTests.swift; sourceTree = "<group>"; };
+		6BE19CE8283E04C500736631 /* Mini_Max_Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mini_Max_Sum.swift; sourceTree = "<group>"; };
+		6BE19CEA283E088A00736631 /* Mini_Max_SumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mini_Max_SumTests.swift; sourceTree = "<group>"; };
+		6BE19CEC283E094900736631 /* Birthday_Cake_Candles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birthday_Cake_Candles.swift; sourceTree = "<group>"; };
+		6BE19CEE283E5F9A00736631 /* Birthday_Cake_CandlesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birthday_Cake_CandlesTests.swift; sourceTree = "<group>"; };
+		6BE19CF0283E600400736631 /* Time_Conversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_Conversion.swift; sourceTree = "<group>"; };
+		6BE19CF2283E655B00736631 /* Time_ConversionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_ConversionTests.swift; sourceTree = "<group>"; };
+		6BE19CF4283E6D1900736631 /* Grading_Students.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grading_Students.swift; sourceTree = "<group>"; };
+		6BE19CF6283E702700736631 /* Grading_StudentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grading_StudentsTests.swift; sourceTree = "<group>"; };
+		6BE19CF8283E711F00736631 /* Super_Reduced_String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Super_Reduced_String.swift; sourceTree = "<group>"; };
+		6BE19CFA283E7BAC00736631 /* Super_Reduced_StringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Super_Reduced_StringTests.swift; sourceTree = "<group>"; };
+		6BE19CFC283E7C6C00736631 /* Big_Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Big_Sorting.swift; sourceTree = "<group>"; };
+		6BE19CFE283E819900736631 /* Big_SortingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Big_SortingTests.swift; sourceTree = "<group>"; };
+		6BE19D00283E84CD00736631 /* Ice_Cream_Parlor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ice_Cream_Parlor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BE19C8E283DD68E00736631 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BE19CA4283DD68F00736631 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B507F87283F15AE006BD0E1 /* Medium */ = {
+			isa = PBXGroup;
+			children = (
+				6B507F8A283F1C9B006BD0E1 /* The_Time_in_Words.swift */,
+				6B507F8F283FC917006BD0E1 /* Sherlock_and_the_Valid_String.swift */,
+				6B3E242C284118FA0036410B /* The_Full_Counting_Sort.swift */,
+				6B3E243028411F490036410B /* Connected_Cells_in_a_Grid.swift */,
+			);
+			path = Medium;
+			sourceTree = "<group>";
+		};
+		6B507F8C283F20FC006BD0E1 /* Medium */ = {
+			isa = PBXGroup;
+			children = (
+				6B507F8D283F2112006BD0E1 /* The_Time_in_WordsTests.swift */,
+				6B507F91283FD6F8006BD0E1 /* Sherlock_and_the_Valid_StringTests.swift */,
+				6B3E242E28411D780036410B /* The_Full_Counting_SortTests.swift */,
+				6B3E2432284129800036410B /* Connected_Cells_in_a_GridTests.swift */,
+			);
+			path = Medium;
+			sourceTree = "<group>";
+		};
+		6BE19C88283DD68E00736631 = {
+			isa = PBXGroup;
+			children = (
+				6BE19C93283DD68E00736631 /* HackerRank_Swift */,
+				6BE19CAA283DD68F00736631 /* HackerRank_SwiftTests */,
+				6BE19C92283DD68E00736631 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BE19C92283DD68E00736631 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BE19C91283DD68E00736631 /* HackerRank_Swift.app */,
+				6BE19CA7283DD68F00736631 /* HackerRank_SwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BE19C93283DD68E00736631 /* HackerRank_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				6BE19CC4283DD84900736631 /* Algorithms */,
+				6BE19CC5283DD8C400736631 /* Data_Structures */,
+				6BE19C94283DD68E00736631 /* AppDelegate.swift */,
+				6BE19C96283DD68E00736631 /* SceneDelegate.swift */,
+				6BE19C98283DD68E00736631 /* ViewController.swift */,
+				6BE19C9A283DD68E00736631 /* Main.storyboard */,
+				6BE19C9D283DD68F00736631 /* Assets.xcassets */,
+				6BE19C9F283DD68F00736631 /* LaunchScreen.storyboard */,
+				6BE19CA2283DD68F00736631 /* Info.plist */,
+			);
+			path = HackerRank_Swift;
+			sourceTree = "<group>";
+		};
+		6BE19CAA283DD68F00736631 /* HackerRank_SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				6BE19CC7283DD8E300736631 /* Algorithms */,
+				6BE19CC6283DD8DA00736631 /* Data_Structures */,
+				6BE19CAB283DD68F00736631 /* HackerRank_SwiftTests.swift */,
+			);
+			path = HackerRank_SwiftTests;
+			sourceTree = "<group>";
+		};
+		6BE19CC4283DD84900736631 /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				6BE19CC8283DD91900736631 /* Easy */,
+				6B507F87283F15AE006BD0E1 /* Medium */,
+			);
+			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		6BE19CC5283DD8C400736631 /* Data_Structures */ = {
+			isa = PBXGroup;
+			children = (
+				6BE19CC9283DD92000736631 /* Easy */,
+			);
+			path = Data_Structures;
+			sourceTree = "<group>";
+		};
+		6BE19CC6283DD8DA00736631 /* Data_Structures */ = {
+			isa = PBXGroup;
+			children = (
+				6BE19CCB283DD92A00736631 /* Easy */,
+			);
+			path = Data_Structures;
+			sourceTree = "<group>";
+		};
+		6BE19CC7283DD8E300736631 /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				6BE19CCA283DD92500736631 /* Easy */,
+				6B507F8C283F20FC006BD0E1 /* Medium */,
+			);
+			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		6BE19CC8283DD91900736631 /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+				6BE19CCC283DD94E00736631 /* Solve_Me_First.swift */,
+				6BE19CD0283DDD2000736631 /* Simple_Array_Sum.swift */,
+				6BE19CD4283DDEAF00736631 /* Compare_the_Triplets.swift */,
+				6BE19CD8283DE46400736631 /* A_Very_Big_Sum.swift */,
+				6BE19CDC283DF20000736631 /* Diagonal_Difference.swift */,
+				6BE19CE0283DF52900736631 /* Plus_Minus.swift */,
+				6BE19CE4283DFF0900736631 /* Staircase.swift */,
+				6BE19CE8283E04C500736631 /* Mini_Max_Sum.swift */,
+				6BE19CEC283E094900736631 /* Birthday_Cake_Candles.swift */,
+				6BE19CF0283E600400736631 /* Time_Conversion.swift */,
+				6BE19CF4283E6D1900736631 /* Grading_Students.swift */,
+				6BE19CF8283E711F00736631 /* Super_Reduced_String.swift */,
+				6BE19CFC283E7C6C00736631 /* Big_Sorting.swift */,
+				6BE19D00283E84CD00736631 /* Ice_Cream_Parlor.swift */,
+			);
+			path = Easy;
+			sourceTree = "<group>";
+		};
+		6BE19CC9283DD92000736631 /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Easy;
+			sourceTree = "<group>";
+		};
+		6BE19CCA283DD92500736631 /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+				6BE19CCE283DD96300736631 /* Solve_Me_FirstTests.swift */,
+				6BE19CD2283DDDFC00736631 /* Simple_Array_SumTests.swift */,
+				6BE19CD6283DE35C00736631 /* Compare_the_TripletsTests.swift */,
+				6BE19CDA283DF16A00736631 /* A_Very_Big_SumTests.swift */,
+				6BE19CDE283DF47900736631 /* Diagonal_DifferencesTests.swift */,
+				6BE19CE2283DF75700736631 /* Plus_MinusTests.swift */,
+				6BE19CE6283E015000736631 /* StaircaseTests.swift */,
+				6BE19CEA283E088A00736631 /* Mini_Max_SumTests.swift */,
+				6BE19CEE283E5F9A00736631 /* Birthday_Cake_CandlesTests.swift */,
+				6BE19CF2283E655B00736631 /* Time_ConversionTests.swift */,
+				6BE19CF6283E702700736631 /* Grading_StudentsTests.swift */,
+				6BE19CFA283E7BAC00736631 /* Super_Reduced_StringTests.swift */,
+				6BE19CFE283E819900736631 /* Big_SortingTests.swift */,
+				6B507F85283F141C006BD0E1 /* Ice_Cream_ParlorTests.swift */,
+			);
+			path = Easy;
+			sourceTree = "<group>";
+		};
+		6BE19CCB283DD92A00736631 /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Easy;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BE19C90283DD68E00736631 /* HackerRank_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BE19CBB283DD68F00736631 /* Build configuration list for PBXNativeTarget "HackerRank_Swift" */;
+			buildPhases = (
+				6BE19C8D283DD68E00736631 /* Sources */,
+				6BE19C8E283DD68E00736631 /* Frameworks */,
+				6BE19C8F283DD68E00736631 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackerRank_Swift;
+			productName = HackerRank_Swift;
+			productReference = 6BE19C91283DD68E00736631 /* HackerRank_Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6BE19CA6283DD68F00736631 /* HackerRank_SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BE19CBE283DD68F00736631 /* Build configuration list for PBXNativeTarget "HackerRank_SwiftTests" */;
+			buildPhases = (
+				6BE19CA3283DD68F00736631 /* Sources */,
+				6BE19CA4283DD68F00736631 /* Frameworks */,
+				6BE19CA5283DD68F00736631 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BE19CA9283DD68F00736631 /* PBXTargetDependency */,
+			);
+			name = HackerRank_SwiftTests;
+			productName = HackerRank_SwiftTests;
+			productReference = 6BE19CA7283DD68F00736631 /* HackerRank_SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BE19C89283DD68E00736631 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					6BE19C90283DD68E00736631 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					6BE19CA6283DD68F00736631 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 6BE19C90283DD68E00736631;
+					};
+				};
+			};
+			buildConfigurationList = 6BE19C8C283DD68E00736631 /* Build configuration list for PBXProject "HackerRank_Swift" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BE19C88283DD68E00736631;
+			productRefGroup = 6BE19C92283DD68E00736631 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BE19C90283DD68E00736631 /* HackerRank_Swift */,
+				6BE19CA6283DD68F00736631 /* HackerRank_SwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BE19C8F283DD68E00736631 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE19CA1283DD68F00736631 /* LaunchScreen.storyboard in Resources */,
+				6BE19C9E283DD68F00736631 /* Assets.xcassets in Resources */,
+				6BE19C9C283DD68E00736631 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BE19CA5283DD68F00736631 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BE19C8D283DD68E00736631 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE19CD5283DDEAF00736631 /* Compare_the_Triplets.swift in Sources */,
+				6B507F90283FC917006BD0E1 /* Sherlock_and_the_Valid_String.swift in Sources */,
+				6BE19CED283E094900736631 /* Birthday_Cake_Candles.swift in Sources */,
+				6BE19CF5283E6D1900736631 /* Grading_Students.swift in Sources */,
+				6BE19CFD283E7C6C00736631 /* Big_Sorting.swift in Sources */,
+				6BE19CCD283DD94E00736631 /* Solve_Me_First.swift in Sources */,
+				6B507F8B283F1C9B006BD0E1 /* The_Time_in_Words.swift in Sources */,
+				6B3E242D284118FA0036410B /* The_Full_Counting_Sort.swift in Sources */,
+				6BE19C99283DD68E00736631 /* ViewController.swift in Sources */,
+				6BE19C95283DD68E00736631 /* AppDelegate.swift in Sources */,
+				6BE19CD9283DE46400736631 /* A_Very_Big_Sum.swift in Sources */,
+				6BE19CDD283DF20000736631 /* Diagonal_Difference.swift in Sources */,
+				6BE19CE9283E04C500736631 /* Mini_Max_Sum.swift in Sources */,
+				6BE19CF9283E711F00736631 /* Super_Reduced_String.swift in Sources */,
+				6BE19CD1283DDD2000736631 /* Simple_Array_Sum.swift in Sources */,
+				6BE19C97283DD68E00736631 /* SceneDelegate.swift in Sources */,
+				6B3E243128411F490036410B /* Connected_Cells_in_a_Grid.swift in Sources */,
+				6BE19CE1283DF52900736631 /* Plus_Minus.swift in Sources */,
+				6BE19CF1283E600400736631 /* Time_Conversion.swift in Sources */,
+				6BE19D01283E84CD00736631 /* Ice_Cream_Parlor.swift in Sources */,
+				6BE19CE5283DFF0900736631 /* Staircase.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BE19CA3283DD68F00736631 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE19CDB283DF16A00736631 /* A_Very_Big_SumTests.swift in Sources */,
+				6B507F86283F141C006BD0E1 /* Ice_Cream_ParlorTests.swift in Sources */,
+				6BE19CF3283E655B00736631 /* Time_ConversionTests.swift in Sources */,
+				6BE19CF7283E702700736631 /* Grading_StudentsTests.swift in Sources */,
+				6BE19CE7283E015000736631 /* StaircaseTests.swift in Sources */,
+				6BE19CEB283E088A00736631 /* Mini_Max_SumTests.swift in Sources */,
+				6B507F92283FD6F8006BD0E1 /* Sherlock_and_the_Valid_StringTests.swift in Sources */,
+				6BE19CD3283DDDFC00736631 /* Simple_Array_SumTests.swift in Sources */,
+				6BE19CEF283E5F9B00736631 /* Birthday_Cake_CandlesTests.swift in Sources */,
+				6BE19CCF283DD96300736631 /* Solve_Me_FirstTests.swift in Sources */,
+				6BE19CDF283DF47900736631 /* Diagonal_DifferencesTests.swift in Sources */,
+				6BE19CD7283DE35C00736631 /* Compare_the_TripletsTests.swift in Sources */,
+				6BE19CFB283E7BAC00736631 /* Super_Reduced_StringTests.swift in Sources */,
+				6BE19CFF283E819900736631 /* Big_SortingTests.swift in Sources */,
+				6B507F8E283F2112006BD0E1 /* The_Time_in_WordsTests.swift in Sources */,
+				6B3E2433284129800036410B /* Connected_Cells_in_a_GridTests.swift in Sources */,
+				6BE19CE3283DF75700736631 /* Plus_MinusTests.swift in Sources */,
+				6BE19CAC283DD68F00736631 /* HackerRank_SwiftTests.swift in Sources */,
+				6B3E242F28411D780036410B /* The_Full_Counting_SortTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BE19CA9283DD68F00736631 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BE19C90283DD68E00736631 /* HackerRank_Swift */;
+			targetProxy = 6BE19CA8283DD68F00736631 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6BE19C9A283DD68E00736631 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BE19C9B283DD68E00736631 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6BE19C9F283DD68F00736631 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BE19CA0283DD68F00736631 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BE19CB9283DD68F00736631 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6BE19CBA283DD68F00736631 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BE19CBC283DD68F00736631 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7RHSLR9YCS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HackerRank_Swift/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iamyyun.HackerRank-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BE19CBD283DD68F00736631 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7RHSLR9YCS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HackerRank_Swift/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iamyyun.HackerRank-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6BE19CBF283DD68F00736631 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7RHSLR9YCS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iamyyun.HackerRank-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackerRank_Swift.app/HackerRank_Swift";
+			};
+			name = Debug;
+		};
+		6BE19CC0283DD68F00736631 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7RHSLR9YCS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iamyyun.HackerRank-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackerRank_Swift.app/HackerRank_Swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BE19C8C283DD68E00736631 /* Build configuration list for PBXProject "HackerRank_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BE19CB9283DD68F00736631 /* Debug */,
+				6BE19CBA283DD68F00736631 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BE19CBB283DD68F00736631 /* Build configuration list for PBXNativeTarget "HackerRank_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BE19CBC283DD68F00736631 /* Debug */,
+				6BE19CBD283DD68F00736631 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BE19CBE283DD68F00736631 /* Build configuration list for PBXNativeTarget "HackerRank_SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BE19CBF283DD68F00736631 /* Debug */,
+				6BE19CC0283DD68F00736631 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BE19C89283DD68E00736631 /* Project object */;
+}
