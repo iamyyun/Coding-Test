@@ -34,3 +34,16 @@
 | 3 | [The Full Counting Sort](https://www.hackerrank.com/challenges/countingsort4) | [The_Full_Counting_Sort.swift](HackerRank_Swift/HackerRank_Swift/Algorithms/Medium/The_Full_Counting_Sort.swift) |
 | 4 | [Connected Cells in a Grid](https://www.hackerrank.com/challenges/connected-cell-in-a-grid) | [Connected_Cells_in_a_Grid.swift](HackerRank_Swift/HackerRank_Swift/Algorithms/Medium/Connected_Cells_in_a_Grid.swift) |
 
+
+## Data Structures EASY
+| 번호 | 문제 | 코드 |
+| --- | --- | --- |
+| 1 | [Arrays-DS](https://www.hackerrank.com/challenges/arrays-ds) | [Array_DS.swift](HackerRank_Swift/HackerRank_Swift/Data_Structures/Easy/Array_DS.swift) |
+| 2 | [Maximum Element](https://www.hackerrank.com/challenges/maximum-element) | [Maximum_Element.swift](HackerRank_Swift/HackerRank_Swift/Data_Structures/Easy/Maximum_Element.swift) |
+| 3 | [QHEAP1](https://www.hackerrank.com/challenges/qheap1) | [QHEAP1.swift](HackerRank_Swift/HackerRank_Swift/Data_Structures/Easy/QHEAP1.swift) |
+
+
+## Data Structures MEDIUM
+| 번호 | 문제 | 코드 |
+| --- | --- | --- |
+| 1 | [Queue using Two Stacks](https://www.hackerrank.com/challenges/queue-using-two-stacks) | [Queue_using_Two_Stacks.swift](HackerRank_Swift/HackerRank_Swift/Data_Structures/Medium/Queue_using_Two_Stacks.swift) |
