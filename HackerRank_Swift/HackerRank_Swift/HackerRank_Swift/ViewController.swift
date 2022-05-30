@@ -13,8 +13,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        let sut = Connected_Cells_in_a_Grid()
-        print(sut.solution(matrix: [[0,1,1,1,1],[1,0,0,0,1],[1,1,0,1,0],[0,1,0,1,1],[0,1,1,1,0]]))
+        let sut = QHEAP1()
+        print(sut.solution(operations: ["1 4","1 9","3","2 4","3"]))
     }
 }
 
