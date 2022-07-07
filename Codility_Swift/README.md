@@ -7,7 +7,7 @@
 ⭐️ Unit Test로 테스트케이스 검증
 
 
-## Algorithms EASY
+## Exercises
 | 번호 | 문제 | 코드 |
 | --- | --- | --- |
 | 1 | [Parking Bill](https://app.codility.com/programmers/trainings/5/parking_bill/) | [Parking_Bill.swift](Codility_Swift/Codility_Swift/Exercises/Parking_Bill.swift) |
