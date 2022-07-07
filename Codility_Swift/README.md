@@ -1,6 +1,6 @@
 # Codility Swift 문제 풀이
 
-⭐️ HackerRank의 [Exercises](https://app.codility.com/programmers/trainings/)의 문제 풀이
+⭐️ Codility의 [Exercises](https://app.codility.com/programmers/trainings/)의 문제 풀이
 
 ⭐️ 문제는 Swift로 해결
 
