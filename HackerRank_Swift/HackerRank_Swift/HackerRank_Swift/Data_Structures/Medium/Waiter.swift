@@ -7,7 +7,7 @@
 
 import Foundation
 
-// Waiter : https://www.hackerrank.com/challenges/waite
+// Waiter : https://www.hackerrank.com/challenges/waiter
 struct Waiter {
     // todo: Solve Test Case Timeout!!
     func solution(number: [Int], q: Int) -> [Int] {
