@@ -45,7 +45,7 @@
 | 33 | [x만큼 간격이 있는 n개의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12954) | [x만큼_간격이_있는_n개의_숫자.swift](Programmers_Swift/Programmers_Swift/Level1/x만큼_간격이_있는_n개의_숫자.swift) |
 | 34 | [내적](https://programmers.co.kr/learn/courses/30/lessons/70128) | [내적.swift](Programmers_Swift/Programmers_Swift/Level1/내적.swift) |
 | 35 | [콜라츠 추측](https://programmers.co.kr/learn/courses/30/lessons/12943) | [콜라츠_추측.swift](Programmers_Swift/Programmers_Swift/Level1/콜라츠_추측.swift) |
-| 36 | [하샤드 수](https://programmers.co.kr/learn/courses/30/lessons/12947) | [하샤드_수.swift](Programmers_Swift/Programmers_Swift/Level1/하샤드_수.swift) |
+| 36 | [하샤드 수](https://programmers.co.kr/learn/courses/30/lessons/12947) | [하샤드_수.swift](Programmers_Swift/Programmers_Swift/Level1/하샤드_수.swift) |
 | 37 | [나머지가 1이 되는 수 찾기](https://programmers.co.kr/learn/courses/30/lessons/87389) | [나머지가_1이_되는_수_찾기.swift](Programmers_Swift/Programmers_Swift/Level1/나머지가_1이_되는_수_찾기.swift) |
 | 38 | [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889) | [실패율.swift](Programmers_Swift/Programmers_Swift/Level1/실패율.swift) |
 | 39 | [신고 결과 받기](https://programmers.co.kr/learn/courses/30/lessons/92334) | [신고_결과_받기.swift](Programmers_Swift/Programmers_Swift/Level1/신고_결과_받기.swift) |
