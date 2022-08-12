@@ -6,30 +6,44 @@
 //
 
 import XCTest
+@testable import Programmers_Swift
 
-class _________________Tests: XCTestCase {
+class 신고_결과_받기Tests: XCTestCase {
+
+    private struct TestCase {
+        let id_list: [String]
+        let report: [String]
+        let k: Int
+        let result: [Int]
+    }
+    
+    private var sut: 신고_결과_받기!
+    private var testCase: TestCase!
 
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        try super.setUpWithError()
+        sut = 신고_결과_받기()
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        sut = nil
+        testCase = nil
+        try super.tearDownWithError()
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+    func testCase1() {
+        // given
+        testCase = TestCase(id_list: ["muzi", "frodo", "apeach", "neo"], report: ["muzi frodo","apeach frodo","frodo neo","muzi neo","apeach muzi"], k: 2, result: [2,1,1,0])
+        // when
+        let result = sut.solution(testCase.id_list, testCase.report, testCase.k)
+        // then
+        XCTAssertEqual(result, testCase.result)
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    func testCase2() {
+        testCase = TestCase(id_list: ["con", "ryan"], report: ["ryan con", "ryan con", "ryan con", "ryan con"], k: 3, result: [0,0])
+        let result = sut.solution(testCase.id_list, testCase.report, testCase.k)
+        XCTAssertEqual(result, testCase.result)
     }
 
 }

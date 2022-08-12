@@ -6,30 +6,36 @@
 //
 
 import XCTest
+@testable import Programmers_Swift
 
-class ________________________________Tests: XCTestCase {
+class 자연수_뒤집어_배열로_만들기Tests: XCTestCase {
+
+    private struct TestCase {
+        let n: Int64
+        let result: [Int]
+    }
+    
+    private var sut: 자연수_뒤집어_배열로_만들기!
+    private var testCase: TestCase!
 
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        try super.setUpWithError()
+        sut = 자연수_뒤집어_배열로_만들기()
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        sut = nil
+        testCase = nil
+        try super.tearDownWithError()
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    func testCase1() {
+        // given
+        testCase = TestCase(n: 12345, result: [5,4,3,2,1])
+        // when
+        let result = sut.solution(testCase.n)
+        // then
+        XCTAssertEqual(result, testCase.result)
     }
 
 }

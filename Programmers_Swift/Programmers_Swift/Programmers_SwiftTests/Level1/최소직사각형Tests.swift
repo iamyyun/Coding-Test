@@ -6,30 +6,48 @@
 //
 
 import XCTest
+@testable import Programmers_Swift
 
-class _______________Tests: XCTestCase {
+class 최소직사각형Tests: XCTestCase {
+
+    private struct TestCase {
+        let sizes: [[Int]]
+        let result: Int
+    }
+    
+    private var sut: 최소직사각형!
+    private var testCase: TestCase!
 
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        try super.setUpWithError()
+        sut = 최소직사각형()
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        sut = nil
+        testCase = nil
+        try super.tearDownWithError()
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+    func testCase1() {
+        // given
+        testCase = TestCase(sizes: [[60, 50], [30, 70], [60, 30], [80, 40]], result: 4000)
+        // when
+        let result = sut.solution(testCase.sizes)
+        // then
+        XCTAssertEqual(result, testCase.result)
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    func testCase2() {
+        testCase = TestCase(sizes: [[10, 7], [12, 3], [8, 15], [14, 7], [5, 15]], result: 120)
+        let result = sut.solution(testCase.sizes)
+        XCTAssertEqual(result, testCase.result)
+    }
+    
+    func testCase3() {
+        testCase = TestCase(sizes: [[14, 4], [19, 6], [6, 16], [18, 7], [7, 11]], result: 133)
+        let result = sut.solution(testCase.sizes)
+        XCTAssertEqual(result, testCase.result)
     }
 
 }

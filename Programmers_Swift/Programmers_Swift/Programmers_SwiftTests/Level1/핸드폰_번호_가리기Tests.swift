@@ -6,30 +6,43 @@
 //
 
 import XCTest
+@testable import Programmers_Swift
 
-class _____________________Tests: XCTestCase {
+class 핸드폰_번호_가리기Tests: XCTestCase {
+
+    private struct TestCase {
+        let phone_number: String
+        let result: String
+    }
+    
+    private var sut: 핸드폰_번호_가리기!
+    private var testCase: TestCase!
 
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        try super.setUpWithError()
+        sut = 핸드폰_번호_가리기()
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        sut = nil
+        testCase = nil
+        try super.tearDownWithError()
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+    func testCase1() {
+        // given
+        testCase = TestCase(phone_number: "01033334444", result: "*******4444")
+        // when
+        let result = sut.solution(testCase.phone_number)
+        // then
+        XCTAssertEqual(result, testCase.result)
+    }
+    
+    func testCase2() {
+        testCase = TestCase(phone_number: "027778888", result: "*****8888")
+        let result = sut.solution(testCase.phone_number)
+        XCTAssertEqual(result, testCase.result)
     }
 
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
 
 }

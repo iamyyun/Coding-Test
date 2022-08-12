@@ -6,30 +6,49 @@
 //
 
 import XCTest
+@testable import Programmers_Swift
 
-class ________________Tests: XCTestCase {
+class 주차_요금_계산Tests: XCTestCase {
+
+    private struct TestCase {
+        let fees: [Int]
+        let records: [String]
+        let result: [Int]
+    }
+    
+    private var sut: 주차_요금_계산!
+    private var testCase: TestCase!
 
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        try super.setUpWithError()
+        sut = 주차_요금_계산()
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        sut = nil
+        testCase = nil
+        try super.tearDownWithError()
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+    func testCase1() {
+        // given
+        testCase = TestCase(fees: [180, 5000, 10, 600], records: ["05:34 5961 IN", "06:00 0000 IN", "06:34 0000 OUT", "07:59 5961 OUT", "07:59 0148 IN", "18:59 0000 IN", "19:09 0148 OUT", "22:59 5961 IN", "23:00 5961 OUT"], result: [14600, 34400, 5000])
+        // when
+        let result = sut.solution(testCase.fees, testCase.records)
+        // then
+        XCTAssertEqual(result, testCase.result)
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    func testCase2() {
+        testCase = TestCase(fees: [120, 0, 60, 591], records: ["16:00 3961 IN","16:00 0202 IN","18:00 3961 OUT","18:00 0202 OUT","23:58 3961 IN"], result: [0, 591])
+        let result = sut.solution(testCase.fees, testCase.records)
+        XCTAssertEqual(result, testCase.result)
+    }
+    
+    func testCase3() {
+        testCase = TestCase(fees: [1, 461, 1, 10], records: ["00:00 1234 IN"], result: [14841])
+        let result = sut.solution(testCase.fees, testCase.records)
+        XCTAssertEqual(result, testCase.result)
     }
 
 }

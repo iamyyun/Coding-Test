@@ -6,30 +6,49 @@
 //
 
 import XCTest
+@testable import Programmers_Swift
 
-class ______________________________Tests: XCTestCase {
+class 로또의_최고_순위와_최저_순위Tests: XCTestCase {
+
+    private struct TestCase {
+        let lottos: [Int]
+        let win_nums: [Int]
+        let result: [Int]
+    }
+    
+    private var sut: 로또의_최고_순위와_최저_순위!
+    private var testCase: TestCase!
 
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        try super.setUpWithError()
+        sut = 로또의_최고_순위와_최저_순위()
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        sut = nil
+        testCase = nil
+        try super.tearDownWithError()
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+    func testCase1() {
+        // given
+        testCase = TestCase(lottos: [44, 1, 0, 0, 31, 25], win_nums: [31, 10, 45, 1, 6, 19], result: [3, 5])
+        // when
+        let result = sut.solution(testCase.lottos, testCase.win_nums)
+        // then
+        XCTAssertEqual(result, testCase.result)
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    func testCase2() {
+        testCase = TestCase(lottos: [0, 0, 0, 0, 0, 0], win_nums: [38, 19, 20, 40, 15, 25], result: [1, 6])
+        let result = sut.solution(testCase.lottos, testCase.win_nums)
+        XCTAssertEqual(result, testCase.result)
+    }
+    
+    func testCase3() {
+        testCase = TestCase(lottos: [45, 4, 35, 20, 3, 9], win_nums: [20, 9, 3, 45, 4, 35], result: [1, 1])
+        let result = sut.solution(testCase.lottos, testCase.win_nums)
+        XCTAssertEqual(result, testCase.result)
     }
 
 }

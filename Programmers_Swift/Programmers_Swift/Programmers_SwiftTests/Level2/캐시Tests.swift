@@ -6,30 +6,67 @@
 //
 
 import XCTest
+@testable import Programmers_Swift
 
-class ____Tests: XCTestCase {
+class 캐시Tests: XCTestCase {
+
+    private struct TestCase {
+        let cacheSize: Int
+        let cities: [String]
+        let result: Int
+    }
+    
+    private var sut: 캐시!
+    private var testCase: TestCase!
 
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        try super.setUpWithError()
+        sut = 캐시()
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        sut = nil
+        testCase = nil
+        try super.tearDownWithError()
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+    func testCase1() {
+        // given
+        testCase = TestCase(cacheSize: 3, cities: ["Jeju", "Pangyo", "Seoul", "NewYork", "LA", "Jeju", "Pangyo", "Seoul", "NewYork", "LA"], result: 50)
+        // when
+        let result = sut.solution(testCase.cacheSize, testCase.cities)
+        // then
+        XCTAssertEqual(result, testCase.result)
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    func testCase2() {
+        testCase = TestCase(cacheSize: 3, cities: ["Jeju", "Pangyo", "Seoul", "Jeju", "Pangyo", "Seoul", "Jeju", "Pangyo", "Seoul"], result: 21)
+        let result = sut.solution(testCase.cacheSize, testCase.cities)
+        XCTAssertEqual(result, testCase.result)
+    }
+    
+    func testCase3() {
+        testCase = TestCase(cacheSize: 2, cities: ["Jeju", "Pangyo", "Seoul", "NewYork", "LA", "SanFrancisco", "Seoul", "Rome", "Paris", "Jeju", "NewYork", "Rome"], result: 60)
+        let result = sut.solution(testCase.cacheSize, testCase.cities)
+        XCTAssertEqual(result, testCase.result)
+    }
+    
+    func testCase4() {
+        testCase = TestCase(cacheSize: 5, cities: ["Jeju", "Pangyo", "Seoul", "NewYork", "LA", "SanFrancisco", "Seoul", "Rome", "Paris", "Jeju", "NewYork", "Rome"], result: 52)
+        let result = sut.solution(testCase.cacheSize, testCase.cities)
+        XCTAssertEqual(result, testCase.result)
+    }
+    
+    func testCase5() {
+        testCase = TestCase(cacheSize: 2, cities: ["Jeju", "Pangyo", "NewYork", "newyork"], result: 16)
+        let result = sut.solution(testCase.cacheSize, testCase.cities)
+        XCTAssertEqual(result, testCase.result)
+    }
+    
+    func testCase6() {
+        testCase = TestCase(cacheSize: 0, cities: ["Jeju", "Pangyo", "Seoul", "NewYork", "LA"], result: 25)
+        let result = sut.solution(testCase.cacheSize, testCase.cities)
+        XCTAssertEqual(result, testCase.result)
     }
 
 }
