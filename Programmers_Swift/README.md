@@ -38,7 +38,7 @@
 | 26 | [시저 암호](https://programmers.co.kr/learn/courses/30/lessons/12926) | [시저_암호.swift](Programmers_Swift/Programmers_Swift/Level1/시저_암호.swift) |
 | 27 | [부족한 금액 계산하기](https://programmers.co.kr/learn/courses/30/lessons/82612) | [부족한_금액_계산하기.swift](Programmers_Swift/Programmers_Swift/Level1/부족한_금액_계산하기.swift) |
 | 28 | [정수 제곱근 판별](https://programmers.co.kr/learn/courses/30/lessons/12934) | [정수_제곱근_판별.swift](Programmers_Swift/Programmers_Swift/Level1/정수_제곱근_판별.swift) |
-| 29 | [음양 더하기](https://programmers.co.kr/learn/courses/30/lessons/12937) | [짝수와_홀수.swift](Programmers_Swift/Programmers_Swift/Level1/짝수와_홀수.swift) |
+| 29 | [음양 더하기](https://programmers.co.kr/learn/courses/30/lessons/12937) | [음양_더하기.swift](Programmers_Swift/Programmers_Swift/Level1/음양_더하기.swift) |
 | 30 | [예산](https://programmers.co.kr/learn/courses/30/lessons/12982) | [예산.swift](Programmers_Swift/Programmers_Swift/Level1/예산.swift) |
 | 31 | [없는 숫자 더하기](https://programmers.co.kr/learn/courses/30/lessons/12934) | [없는_숫자_더하기.swift](Programmers_Swift/Programmers_Swift/Level1/없는_숫자_더하기.swift) |
 | 32 | [숫자 문자열과 영단어](https://programmers.co.kr/learn/courses/30/lessons/81301) | [숫자_문자열과_영단어.swift](Programmers_Swift/Programmers_Swift/Level1/숫자_문자열과_영단어.swift) |
