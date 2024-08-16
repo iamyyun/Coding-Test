@@ -1,14 +1,14 @@
-# HackerRank Swift 문제 풀이
+# HackerRank Swift Problem Solving
 
-⭐️ HackerRank의 [PREPARE](https://www.hackerrank.com/dashboard)의 문제 풀이
+⭐️ Problem solving of HackerRank's' [PREPARE](https://www.hackerrank.com/dashboard)
 
-⭐️ 문제는 Swift로 해결
+⭐️ Problems are solved with Swift
 
-⭐️ Unit Test로 테스트케이스 검증
+⭐️ Verify test cases with Unit Test
 
 
 ## Algorithms EASY
-| 번호 | 문제 | 코드 |
+| Index | Problem | Code |
 | --- | --- | --- |
 | 1 | [Solve Me First](https://www.hackerrank.com/challenges/solve-me-first) | [Solve_Me_First.swift](HackerRank_Swift/HackerRank_Swift/Algorithms/Easy/Solve_Me_First.swift) |
 | 2 | [Simple Array Sum](https://www.hackerrank.com/challenges/simple-array-sum) | [Simple_Array_Sum.swift](HackerRank_Swift/HackerRank_Swift/Algorithms/Easy/Simple_Array_Sum.swift) |
@@ -30,7 +30,7 @@
 
 
 ## Algorithms MEDIUM
-| 번호 | 문제 | 코드 |
+| Index | Problem | Code |
 | --- | --- | --- |
 | 1 | [The Time in Words](https://www.hackerrank.com/challenges/the-time-in-words) | [The_Time_in_Words.swift](HackerRank_Swift/HackerRank_Swift/Algorithms/Medium/The_Time_in_Words.swift) |
 | 2 | [Sherlock and the Valid String](https://www.hackerrank.com/challenges/sherlock-and-valid-string) | [Sherlock_and_Valid_String.swift](HackerRank_Swift/HackerRank_Swift/Algorithms/Medium/Sherlock_and_Valid_String.swift) |
@@ -42,7 +42,7 @@
 
 
 ## Data Structures EASY
-| 번호 | 문제 | 코드 |
+| Index | Problem | Code |
 | --- | --- | --- |
 | 1 | [Arrays-DS](https://www.hackerrank.com/challenges/arrays-ds) | [Array_DS.swift](HackerRank_Swift/HackerRank_Swift/Data_Structures/Easy/Array_DS.swift) |
 | 2 | [Maximum Element](https://www.hackerrank.com/challenges/maximum-element) | [Maximum_Element.swift](HackerRank_Swift/HackerRank_Swift/Data_Structures/Easy/Maximum_Element.swift) |
@@ -52,7 +52,7 @@
 
 
 ## Data Structures MEDIUM
-| 번호 | 문제 | 코드 |
+| Index | Problem | Code |
 | --- | --- | --- |
 | 1 | [Queue using Two Stacks](https://www.hackerrank.com/challenges/queue-using-two-stacks) | [Queue_using_Two_Stacks.swift](HackerRank_Swift/HackerRank_Swift/Data_Structures/Medium/Queue_using_Two_Stacks.swift) |
 | 2 | [Sparse Arrays](https://www.hackerrank.com/challenges/sparse-arrays) | [Sparse_Arrays.swift](HackerRank_Swift/HackerRank_Swift/Data_Structures/Medium/Sparse_Arrays.swift) |

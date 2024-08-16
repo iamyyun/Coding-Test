@@ -1,14 +1,14 @@
-# 프로그래머스 Swift 문제 풀이
+# Programmers Swift Problem Solving
 
-⭐️ 프로그래머스의 [코딩테스트 연습](https://programmers.co.kr/learn/challenges)의 문제 풀이
+⭐️ Problem solving of Programmers's [코딩테스트 연습](https://programmers.co.kr/learn/challenges)
 
-⭐️ 문제는 Swift로 해결
+⭐️ Problems are solved with Swift
 
-⭐️ Unit Test로 테스트케이스 검증
+⭐️ Verify test cases with Unit Test
 
 
 ## Level 1
-| 번호 | 문제 | 코드 |
+| Index | Problem | Code |
 | --- | --- | --- |
 | 1 | [2016년](https://programmers.co.kr/learn/courses/30/lessons/12901) | [2016년.swift](Programmers_Swift/Programmers_Swift/Level1/2016년.swift) |
 | 2 | [K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748) | [K번째수.swift](Programmers_Swift/Programmers_Swift/Level1/K번째수.swift) |
@@ -56,7 +56,7 @@
 | 44 | [소수찾기](https://programmers.co.kr/learn/courses/30/lessons/12921) | [소수찾기.swift](Programmers_Swift/Programmers_Swift/Level1/소수찾기.swift) |
 
 ## Level 2
-| 번호 | 문제 | 코드 |
+| Index | Problem | Code |
 | --- | --- | --- |
 | 1 | [H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747) | [H-Index.swift](Programmers_Swift/Programmers_Swift/Level2/H-Index.swift) |
 | 2 | [JadenCase 문자열 만들기](https://programmers.co.kr/learn/courses/30/lessons/12951) | [JadenCase_문자열_만들기.swift](Programmers_Swift/Programmers_Swift/Level2/JadenCase_문자열_만들기.swift) |
@@ -86,7 +86,7 @@
 | 26 | [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057) | [문자열_압축.swift](Programmers_Swift/Programmers_Swift/Level2/문자열_압축.swift) |
 
 ## Level 3
-| 번호 | 문제 | 코드 |
+| Index | Problem | Code |
 | --- | --- | --- |
 | 1 | [네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162) | [네트워크.swift](Programmers_Swift/Programmers_Swift/Level3/네트워크.swift) |
 | 2 | [단어 변환](https://programmers.co.kr/learn/courses/30/lessons/43163) | [단어_변환.swift](Programmers_Swift/Programmers_Swift/Level3/단어_변환.swift) |

@@ -1,15 +1,16 @@
-# Coding Test Swift 문제 풀이
+# Swift Coding Test Problem Solving
 
-⭐️ 코딩테스트 문제 풀이
+⭐️ Problem solving of Coding Test
 
-⭐️ 문제는 Swift로 해결
+⭐️ Problems are solved with Swift
 
-⭐️ Unit Test로 테스트케이스 검증
+⭐️ Verify test cases with Unit Test
 
 
 ## Contents
-| 번호 | 사이트 | 코드 |
+| Index | Site | Code |
 | --- | --- | --- |
 | 1 | [Programmers](https://programmers.co.kr/) | [Programmers_Swift](Programmers_Swift) |
 | 2 | [HackerRank](https://www.hackerrank.com/) | [HackerRank_Swift](HackerRank_Swift) |
 | 3 | [Codility](https://app.codility.com/programmers/) | [Codility_Swift](Codility_Swift) |
+| 4 | [LeetCode](https://leetcode.com/) | [LeetCode_Swift](LeetCode_Swift) |

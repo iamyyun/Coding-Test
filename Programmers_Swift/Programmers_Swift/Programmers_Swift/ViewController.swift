@@ -13,61 +13,63 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-//        print(주차_요금_계산().solution([180, 5000, 10, 600], ["05:34 5961 IN", "06:00 0000 IN", "06:34 0000 OUT", "07:59 5961 OUT", "07:59 0148 IN", "18:59 0000 IN", "19:09 0148 OUT", "22:59 5961 IN", "23:00 5961 OUT"]))
-        print(주차_요금_계산().solution([120, 0, 60, 591], ["16:00 3961 IN","16:00 0202 IN","18:00 3961 OUT","18:00 0202 OUT","23:58 3961 IN"]))
-    }
-    
-    // Level 2
-        // https://school.programmers.co.kr/learn/courses/30/lessons/60057
-        func zipSolution(_ s:String) -> Int {
-            var shortArr = [Int]()
-            
-            let max = s.count/2+1
-            shortArr.append(s.count)
-            for i in 1...max {
-                let splitArr = getStrSizeArr(size: i)
-                var sameStr = ""
-                var sameArr = [String]()
-                for i in 0..<splitArr.count {
-                    let split = splitArr[i]
-                    if sameArr.count == 0 { sameArr.append(split) }
-                    else {
-                        if sameArr.last == split {
-                            if i == splitArr.count-1 {
-                                sameArr.append(split)
-                                sameStr += "\(sameArr.count)\(sameArr[0])"
-                            } else {
-                                sameArr.append(split)
-                            }
-                        } else {
-                            if sameArr.count == 1 {
-                                sameStr += "\(sameArr[0])"
-                            } else {
-                                sameStr += "\(sameArr.count)\(sameArr[0])"
-                            }
-                            
-                            if i == splitArr.count-1 {
-                                sameStr += split
-                            } else {
-                                sameArr = [String]()
-                                sameArr.append(split)
-                            }
-                        }
-                    }
-                }
-                if sameStr.count > 0 { shortArr.append(sameStr.count) }
+        for i in 0...4 {
+            for _ in 0...i {
+                print("*", terminator: "")
             }
-            
-            func getStrSizeArr(size: Int) -> [String] {
-                let arr = s.map { $0 }
-                let element = stride(from: 0, to: s.count, by: size).map {
-                    Array(arr[$0..<Swift.min($0+size, s.count)])
-                }
-                return element.compactMap{ String($0) }
-            }
-            
-            return shortArr.min()!
+            print("")
         }
         
+        for j in 0...4 {
+            for _ in 0...4-j {
+                print("*", terminator: "")
+            }
+            print("")
+        }
+        
+        for k in 0...4 {
+            for _ in k...4 {
+                print(" ", terminator: "")
+            }
+            for _ in 0...k {
+                print("*", terminator: "")
+            }
+            print("")
+        }
+        
+        for m in 0...4 {
+            for _ in 0...m {
+                print(" ", terminator: "")
+            }
+            for _ in 0...4-m {
+                print("*", terminator: "")
+            }
+            print("")
+        }
+        
+        for m in 1...5 {
+            for _ in 1...(6-m) {
+                print(" ", terminator: "")
+            }
+            for _ in 1...m*2-1 {
+                print("*", terminator: "")
+            }
+            print("")
+        }
+        
+        let hello = "hello"
+        print(hello.map { String($0) }.reversed().joined())
+        
+        let numArr = [1,2,3,4,5,6,7,8,9,10]
+        let strArr = ["가","나","다","라","마","바"]
+        print(numArr.map { $0+1 })
+        print(numArr.map { $0%2 == 0 })
+        print(numArr.filter{ $0%2 == 0 })
+        print(numArr.reduce(0, +))
+        print(strArr.reduce("", +))
+        print(numArr.map { String($0) }.joined())
+        print(strArr.joined())
+        
+    }
 }
 

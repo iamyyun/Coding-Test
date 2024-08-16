@@ -1,6 +1,6 @@
-# Codility Swift Problem Solving
+# LeetCode Swift Problem Solving
 
-⭐️ Problem solving of Codility's [Exercises](https://app.codility.com/programmers/trainings/)
+⭐️ Problem solving of LeetCode's [Exercises](https://app.codility.com/programmers/trainings/)
 
 ⭐️ Problems are solved with Swift
 
